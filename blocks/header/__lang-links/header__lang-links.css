@@ -3,8 +3,5 @@
   padding: 0;
   margin-left: auto;
   list-style-type: none;
-}
-
-.header__lang-links li {
-  display: inline;
+  display: flex;
 }

@@ -1,21 +1,14 @@
 .footer__menu-list {
   list-style-type: none;
   padding: 0;
-}
-
-.footer__menu-list li {
-  display: inline-block;
-  margin-right: 18px;
+  margin: 0;
+  display: flex;
 }
 
 @media screen and (max-width: 767px) {
 
   .footer__menu-list {
-    margin-bottom: 48px;
-  }
-
-  .footer__menu-list li {
-    display: block;
-    margin: 0 0 32px;
+    margin-bottom: 16px;
+    flex-direction: column;
   }
 }
