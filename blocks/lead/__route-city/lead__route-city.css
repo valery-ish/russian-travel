@@ -1,0 +1,4 @@
+.lead__route-city:hover {
+  cursor: pointer;
+  fill: red;
+}

@@ -1,0 +1,7 @@
+.lead__image {
+  object-fit: contain;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+}
