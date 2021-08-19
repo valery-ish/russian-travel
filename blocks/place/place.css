@@ -26,5 +26,6 @@
       "image"
       "paragraph";
     gap: 32px;
+    margin-bottom: 25px;
   }
 }

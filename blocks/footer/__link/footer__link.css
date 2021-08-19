@@ -4,13 +4,12 @@
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
-  border-bottom: 1px solid transparent;
-  transition: border-color 1s;
+  transition: opacity 1s;
 }
 
 .footer__link:hover {
   cursor: pointer;
-  border-color: #FFFFFF;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {

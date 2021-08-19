@@ -6,10 +6,25 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 92px;
-  background-image: url(../cover/images/cover-trains.jpg);
+  background-image: url(/images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
+}
+
+.cover::before {
+  content: "";
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1279px) {
@@ -36,6 +51,5 @@
 @media screen and (max-width: 424px) {
   .cover {
     min-height: 200px;
-    margin-bottom: 64px;
   }
 }
