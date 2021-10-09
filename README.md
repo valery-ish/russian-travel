@@ -7,4 +7,4 @@
 Flexbox, Grid
 
 **Github Page**
-https://valery-ish.github.io/russian-travel/
+https://valery-kalmykova.github.io/russian-travel/
